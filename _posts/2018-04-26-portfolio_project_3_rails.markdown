@@ -11,11 +11,10 @@ Rails was such a fun tool to add to my coding toolbelt. It allowed me to create 
 Rails Vitamin App ia an application that allows users to create a profile to track their vitamin regimen. They do this by first creating a vitamin pack (or multiple should that choose) and then choosing vitamins to put into said pack. If they do not see a certain vitamin they would like in their pack, they have the ability to create vitamins to add to the overall vitamin index as well.
 
 # Associations
-![](https://imgur.com/a/QorBgF3)
 
 The associations quickly became tricky, as I wanted the objects to exist independently and associate freely. I decided to have four main objects: Users, VitaminPacks, Vitamins, and Benefits. Because VitaminPacks also acted as a join table between Users and Vitamins, I only needed to create two separate join tables: VitaminBenefits and VitaminPackVitamins.
 
-As shown in the above diagram, 
+Here are the associations I implemented in this application: 
 
 * a User has_many VitaminPacks
 * a VitaminPack belongs_to a User
