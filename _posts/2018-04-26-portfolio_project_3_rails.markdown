@@ -1,17 +1,17 @@
 ---
 layout: post
 title:      "Portfolio Project #3: Rails"
-date:       2018-04-26 15:32:58 +0000
+date:       2018-04-26 11:32:58 -0400
 permalink:  portfolio_project_3_rails
 ---
 
-Rails is an incredible tool for building flexible and clean CRUD applications. After investing a good deal of time in understanding its functions and grappling with its magical qualities, I was able to create a site with a surprising amount of features.
+Rails was such a fun tool to add to my coding toolbelt. It allowed me to create a flexible and clean CRUD application and build off of my previous Sinatra project to create a more sophisticated and user friendly application.
 
 # The App
 Rails Vitamin App ia an application that allows users to create a profile to track their vitamin regimen. They do this by first creating a vitamin pack (or multiple should that choose) and then choosing vitamins to put into said pack. If they do not see a certain vitamin they would like in their pack, they have the ability to create vitamins to add to the overall vitamin index as well.
 
 # Associations
-![](http://imgur.com/a/QorBgF3.jpg)
+![](https://imgur.com/a/QorBgF3)
 
 The associations quickly became tricky, as I wanted the objects to exist independently and associate freely. I decided to have four main objects: Users, VitaminPacks, Vitamins, and Benefits. Because VitaminPacks also acted as a join table between Users and Vitamins, I only needed to create two separate join tables: VitaminBenefits and VitaminPackVitamins.
 
