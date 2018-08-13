@@ -11,8 +11,8 @@ Recently, I was given a code challenge as the next step in the interview process
 Build a simple web page that lets you search for recipes using this simple recipe API: (http://www.recipepuppy.com/about/api/) 
 
 Requirements: 
-		●  A responsive landing page with a search bar. The user should get a list of results as she types (no extra buttons). The page should work on both web and mobile. &#x2028;
-		●  We don’t want to spam the recipe API, so we should send a request only when the user has stopped typing &#x2028;
+* 		A responsive landing page with a search bar. The user should get a list of results as she types (no extra buttons). The page should work on both web and mobile. &#x2028;
+* 		We don’t want to spam the recipe API, so we should send a request only when the user has stopped typing &#x2028;
 		
 So this seemed relatively straight-forward (albeit vague), but making API calls from a search bar was something I had never done before. Also, I had never used an external API that I hadn’t made. In this blog post I am going to explain my process of building this project.
 		
